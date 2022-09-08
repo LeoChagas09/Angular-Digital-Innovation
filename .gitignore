@@ -1,3 +1,7 @@
 
 Angular/src/assets/server/package-lock.json
 Angular/src/assets/server/node_modules
+.DS_Store
+TrabalhandoPaginasSPA/.vscode
+TrabalhandoPaginasSPA/.angular
+.DS_Store
