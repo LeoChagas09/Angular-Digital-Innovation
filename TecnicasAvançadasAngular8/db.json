@@ -1,0 +1,114 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nomeProduto": "Smith 44 Puro Malte",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/88796-cerveja-smith-44-puro-malte-lata-350ml.jpg",
+      "dtLancamento": "2021-04-14T03:00:00.000Z",
+      "descricao": "Feita exclusivamente com água, malte e lúpulo, a cerveja Smith44 é pra quem tem personalidade.",
+      "teorAlcoolico": 5,
+      "embalagens": "330ml, 350ml",
+      "tipo": "Cervejas"
+    },
+    {
+      "id": 2,
+      "nomeProduto": "Moinho Real Puro Malte",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/88353-cerveja-moinho-real-puro-malte-lata-269ml.jpg",
+      "dtLancamento": "2020-02-11T03:00:00.000Z",
+      "descricao": "Se você acha que toda cerveja puro malte tem um sabor intenso e amargo, agora tem a chance de se surpreender: conheça Moinho Real, uma cerveja puro malte lager de baixo amargor.",
+      "teorAlcoolico": 4.4,
+      "embalagens": "269ml, 300ml, 330ml, 350ml, 473ml, 600ml, e 1L.",
+      "tipo": "Cervejas"
+    },
+    {
+      "id": 3,
+      "nomeProduto": "Contini",
+      "urlFoto": "https://images.tcdn.com.br/img/img_prod/1050457/vermouth_contini_bianco_900ml_217_1_31494420352ef1fa3df0fc3be5fb3eef.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "Contini, a melhor dose do seu dia.",
+      "teorAlcoolico": 13.9,
+      "embalagens": "900ml.",
+      "tipo": "Bebidas Quentes"
+    },
+    {
+      "id": 4,
+      "nomeProduto": "Barkov Ice",
+      "urlFoto": "http://img.sitemercado.com.br/produtos/29c8866c5466c477ed3a0565d3e099ab6b703fa37da11dddba69d1e830901f95_full.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "Curta a sua melhor versão.",
+      "teorAlcoolico": 5,
+      "embalagens": "275ml",
+      "tipo": "Bebidas Quentes"
+    },
+    {
+      "id": 5,
+      "nomeProduto": "Burguesa",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/87107-cerveja-burguesa-lata-350-ml.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "Lugares, amigos e momentos: a Burguesa é a cerveja que combina com tudo o que você quiser.",
+      "teorAlcoolico": 4.7,
+      "embalagens": "269ml, 300ml, 330ml, 350ml, 473ml,  600ml e 1l.",
+      "tipo": "Cervejas"
+    },
+    {
+      "id": 6,
+      "nomeProduto": "Samba",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/87105-cerveja-samba-pilsen-lata-269-ml.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "A cerveja Samba é uma pilsen clara e leve que nunca perde o ritmo. Com ela a festa acontece!",
+      "teorAlcoolico": 4.4,
+      "embalagens": "269ml, 300ml, 350ml, 473ml, 600ml e 1l.",
+      "tipo": "Cervejas"
+    },
+    {
+      "id": 7,
+      "nomeProduto": "Old Red",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/img/bebida/images/products/full/50754-old-red-1-l.jpg?s=c1a3a64eecf5f1e091b7ded9ad0b75d8",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "Sinta a Liberdade!",
+      "teorAlcoolico": 38,
+      "embalagens": "1L.",
+      "tipo": "Bebidas Quentes"
+    },
+    {
+      "id": 8,
+      "nomeProduto": "Conti Cola",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/4568-refrigerante-conti-cola-pet-2-l.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "Seja qual for seu estilo, essa Conti Cola é pra você!",
+      "teorAlcoolico": 0,
+      "embalagens": "3 litros, 2 litros, 1 litro, 600ml, 290ml e 269ml",
+      "tipo": "Não Alcoólicos"
+    },
+    {
+      "id": 9,
+      "nomeProduto": "Guaraná Conti",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/4563-refrigerante-conti-guarana-pet-2-l.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "O Conti Guaraná vai bem em qualquer situação e, tão gostoso quanto o original, é a sua versão sem açúcar. Experimente!",
+      "teorAlcoolico": 0,
+      "embalagens": "3 litros, 2 litros, 600ml e 269ml.",
+      "tipo": "Não Alcoólicos"
+    },
+    {
+      "id": 10,
+      "nomeProduto": "Big Power",
+      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/17040-energetico-big-power-pet-2l.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "No trabalho, na academia e na balada: tome Big Power e fique sempre ligado!",
+      "teorAlcoolico": 0,
+      "embalagens": "2 litros, 600ml e 473ml.",
+      "tipo": "Não Alcoólicos"
+    },
+    {
+      "id": 11,
+      "nomeProduto": "Xopito",
+      "urlFoto": "https://cdn.spiritshop.com.br/adegaportofino/image/cache/data/up_system/product-51511/xopitoe-1500x1500.jpg",
+      "dtLancamento": "1997-07-11T03:00:00.000Z",
+      "descricao": "A groselha Xopito é um produto tradicional da Casa Di Conti, querida por muitos consumidores e é ideal para o preparo de receitas, drinks e de refrescos para toda a família.",
+      "teorAlcoolico": 0,
+      "embalagens": "900ml.",
+      "tipo": "Não Alcoólicos"
+    }
+  ]
+}
