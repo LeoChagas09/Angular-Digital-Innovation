@@ -2,113 +2,113 @@
   "produtos": [
     {
       "id": 1,
-      "nomeProduto": "Smith 44 Puro Malte",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/88796-cerveja-smith-44-puro-malte-lata-350ml.jpg",
-      "dtLancamento": "2021-04-14T03:00:00.000Z",
-      "descricao": "Feita exclusivamente com água, malte e lúpulo, a cerveja Smith44 é pra quem tem personalidade.",
-      "teorAlcoolico": 5,
-      "embalagens": "330ml, 350ml",
-      "tipo": "Cervejas"
+      "nome": "Grand Theft Auto V",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+      "dtLancamento": "2013-09-17T03:00:00.000Z",
+      "descricao": "Jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.",
+      "preco": 70,
+      "plataforma": "PS4",
+      "genero": "Ação"
     },
     {
       "id": 2,
-      "nomeProduto": "Moinho Real Puro Malte",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/88353-cerveja-moinho-real-puro-malte-lata-269ml.jpg",
-      "dtLancamento": "2020-02-11T03:00:00.000Z",
-      "descricao": "Se você acha que toda cerveja puro malte tem um sabor intenso e amargo, agora tem a chance de se surpreender: conheça Moinho Real, uma cerveja puro malte lager de baixo amargor.",
-      "teorAlcoolico": 4.4,
-      "embalagens": "269ml, 300ml, 330ml, 350ml, 473ml, 600ml, e 1L.",
-      "tipo": "Cervejas"
+      "nome": "Red Dead Redemption 2",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/493959_IGDB-285x380.jpg",
+      "dtLancamento": "2018-10-24T03:00:00.000Z",
+      "descricao": "América, 1899. O fim da era do Velho Oeste começou. Depois que um assalto dá errado na cidade ocidental de Blackwater, Arthur Morgan e a gangue Van der Linde são forçados a fugir.",
+      "preco": 120,
+      "plataforma": "PC",
+      "genero": "Aventura"
     },
     {
       "id": 3,
-      "nomeProduto": "Contini",
-      "urlFoto": "https://images.tcdn.com.br/img/img_prod/1050457/vermouth_contini_bianco_900ml_217_1_31494420352ef1fa3df0fc3be5fb3eef.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "Contini, a melhor dose do seu dia.",
-      "teorAlcoolico": 13.9,
-      "embalagens": "900ml.",
-      "tipo": "Bebidas Quentes"
+      "nome": "World of Warcraft",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg",
+      "dtLancamento": "2004-11-23T03:00:00.000Z",
+      "descricao": "World of Warcraft é um jogo on-line do gênero MMORPG, desenvolvido e distribuído pela produtora Blizzard Entertainment e lançado em 2004.",
+      "preco": 50,
+      "plataforma": "PC",
+      "genero": "RPG"
     },
     {
       "id": 4,
-      "nomeProduto": "Barkov Ice",
-      "urlFoto": "http://img.sitemercado.com.br/produtos/29c8866c5466c477ed3a0565d3e099ab6b703fa37da11dddba69d1e830901f95_full.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "Curta a sua melhor versão.",
-      "teorAlcoolico": 5,
-      "embalagens": "275ml",
-      "tipo": "Bebidas Quentes"
+      "nome": "FIFA 22",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-285x380.jpg",
+      "dtLancamento": "2001-09-27T03:00:00.000Z",
+      "descricao": "FIFA 22 é um jogo eletrônico de simulação de futebol desenvolvido e publicado pela Electronic Arts.",
+      "preco": 100,
+      "plataforma": "PS5",
+      "genero": "Esportes"
     },
     {
       "id": 5,
-      "nomeProduto": "Burguesa",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/87107-cerveja-burguesa-lata-350-ml.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "Lugares, amigos e momentos: a Burguesa é a cerveja que combina com tudo o que você quiser.",
-      "teorAlcoolico": 4.7,
-      "embalagens": "269ml, 300ml, 330ml, 350ml, 473ml,  600ml e 1l.",
-      "tipo": "Cervejas"
+      "nome": "Counter Strike - GO",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-285x380.jpg",
+      "dtLancamento": "2012-08-21T03:00:00.000Z",
+      "descricao": "Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source.",
+      "preco": 79,
+      "plataforma": "PC",
+      "genero": "FPS"
     },
     {
       "id": 6,
-      "nomeProduto": "Samba",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/87105-cerveja-samba-pilsen-lata-269-ml.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "A cerveja Samba é uma pilsen clara e leve que nunca perde o ritmo. Com ela a festa acontece!",
-      "teorAlcoolico": 4.4,
-      "embalagens": "269ml, 300ml, 350ml, 473ml, 600ml e 1l.",
-      "tipo": "Cervejas"
+      "nome": "The Quarry",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/1937599489_IGDB-285x380.jpg",
+      "dtLancamento": "2022-06-10T03:00:00.000Z",
+      "descricao": "The Quarry é um jogo eletrônico de drama interativo e terror desenvolvido pela Supermassive Games e publicado pela 2K Games.",
+      "preco": 140,
+      "plataforma": "Xbox One",
+      "genero": "Terror"
     },
     {
       "id": 7,
-      "nomeProduto": "Old Red",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/img/bebida/images/products/full/50754-old-red-1-l.jpg?s=c1a3a64eecf5f1e091b7ded9ad0b75d8",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "Sinta a Liberdade!",
-      "teorAlcoolico": 38,
-      "embalagens": "1L.",
-      "tipo": "Bebidas Quentes"
+      "nome": "Dead By Daylight",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
+      "dtLancamento": "2016-06-14T03:00:00.000Z",
+      "descricao": "Dead by Daylight é um jogo eletrônico multijogador online assimétrico de survival horror desenvolvido pela Behaviour Interactive.",
+      "preco": 50,
+      "plataforma": "Nintendo Switch",
+      "genero": "Terror"
     },
     {
       "id": 8,
-      "nomeProduto": "Conti Cola",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/4568-refrigerante-conti-cola-pet-2-l.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "Seja qual for seu estilo, essa Conti Cola é pra você!",
-      "teorAlcoolico": 0,
-      "embalagens": "3 litros, 2 litros, 1 litro, 600ml, 290ml e 269ml",
-      "tipo": "Não Alcoólicos"
+      "nome": "Valorant",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg",
+      "dtLancamento": "2022-06-02T03:00:00.000Z",
+      "descricao": "Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games.",
+      "preco": 0,
+      "plataforma": "PC",
+      "genero": "FPS"
     },
     {
       "id": 9,
-      "nomeProduto": "Guaraná Conti",
+      "nome": "Rocket League",
       "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/4563-refrigerante-conti-guarana-pet-2-l.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "O Conti Guaraná vai bem em qualquer situação e, tão gostoso quanto o original, é a sua versão sem açúcar. Experimente!",
-      "teorAlcoolico": 0,
-      "embalagens": "3 litros, 2 litros, 600ml e 269ml.",
-      "tipo": "Não Alcoólicos"
+      "dtLancamento": "2015-07-07T03:00:00.000Z",
+      "descricao": "Rocket League é um jogo eletrônico de futebol em veículos desenvolvido e publicado pela Psyonix.",
+      "preco": 0,
+      "plataforma": "PS4",
+      "genero": "Esportes"
     },
     {
       "id": 10,
-      "nomeProduto": "Big Power",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/17040-energetico-big-power-pet-2l.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "No trabalho, na academia e na balada: tome Big Power e fique sempre ligado!",
-      "teorAlcoolico": 0,
-      "embalagens": "2 litros, 600ml e 473ml.",
-      "tipo": "Não Alcoólicos"
+      "nome": "God of War Ragnarök",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/6369_IGDB-285x380.jpg",
+      "dtLancamento": "2022-11-09T03:00:00.000Z",
+      "descricao": "God of War Ragnarök é um futuro jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment.",
+      "preco": 300,
+      "plataforma": "PS5",
+      "genero": "Ação"
     },
     {
       "id": 11,
-      "nomeProduto": "Xopito",
-      "urlFoto": "https://cdn.spiritshop.com.br/adegaportofino/image/cache/data/up_system/product-51511/xopitoe-1500x1500.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "A groselha Xopito é um produto tradicional da Casa Di Conti, querida por muitos consumidores e é ideal para o preparo de receitas, drinks e de refrescos para toda a família.",
-      "teorAlcoolico": 0,
-      "embalagens": "900ml.",
-      "tipo": "Não Alcoólicos"
+      "nome": "Detroit: Become Human",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/497480_IGDB-285x380.jpg",
+      "dtLancamento": "2018-05-25T03:00:00.000Z",
+      "descricao": "Detroit: Become Human é um jogo eletrônico produzido pela Quantic Dream e publicado pela Sony Interactive Entertainment.",
+      "preco": 135,
+      "plataforma": "PS4",
+      "genero": "Aventura"
     }
   ]
 }

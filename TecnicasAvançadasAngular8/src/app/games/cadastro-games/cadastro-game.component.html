@@ -1,15 +1,15 @@
-<mat-toolbar class="app-title">Cadastrar Produto</mat-toolbar>
+<mat-toolbar class="app-title">Cadastrar Jogo</mat-toolbar>
 <div class="main-div">
   <mat-card class="center width50" >
     <form autocomplete="off" novalidate [formGroup]="cadastro" (ngSubmit)="salvar()" (ngReset)="reiniciarForm()">
       <mat-card-content>
-          <dio-input-text titulo="Nome do Produto *" controlName="nomeProduto" [formGroup]="cadastro" ></dio-input-text>
+          <dio-input-text titulo="Nome do Jogo*" controlName="nome" [formGroup]="cadastro" ></dio-input-text>
           <dio-input-text titulo="Link Foto" controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
           <dio-input-date titulo="Data de Lançamento *" controlName="dtLancamento" [formGroup]="cadastro"></dio-input-date>
           <dio-input-textarea titulo="Descrição" controlName="descricao" [formGroup]="cadastro"></dio-input-textarea>
-          <dio-input-number titulo="Teor alcoólico *" controlName="teorAlcoolico" [formGroup]="cadastro" step="0.1"></dio-input-number>
-          <dio-input-text titulo="Embalagens" controlName="embalagens" [formGroup]="cadastro"></dio-input-text>
-          <dio-input-select titulo="Tipo de Bebida *" [opcoes]="tipos" controlName="tipo" [formGroup]="cadastro"></dio-input-select>
+          <dio-input-number titulo="Preço *" controlName="preco" [formGroup]="cadastro" step="0.1"></dio-input-number>
+          <dio-input-text titulo="Plataforma" controlName="plataforma" [formGroup]="cadastro"></dio-input-text>
+          <dio-input-select titulo="Tipo de Jogo *" [opcoes]="generos" controlName="genero" [formGroup]="cadastro"></dio-input-select>
         </mat-card-content>
         <mat-card-actions>
           <button type="submit" color="accent" mat-raised-button>Salvar</button>

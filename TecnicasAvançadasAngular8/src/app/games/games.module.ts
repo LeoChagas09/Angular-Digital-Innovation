@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
-import { CadastroProdutosComponent } from './cadastro-produtos/cadastro-produtos.component';
+import { CadastroGameComponent } from './cadastro-games/cadastro-game.component';
 import { MaterialModule } from '../shared/material/material.module';
-import { ListagemProdutosComponent } from './listagem-produtos/listagem-produtos.component';
+import { ListagemGamesComponent } from './listagem-games/listagem-games.component';
 import { CamposModule } from '../shared/components/campos/campos.module';
 
 @NgModule({
@@ -15,6 +15,6 @@ import { CamposModule } from '../shared/components/campos/campos.module';
     FormsModule,
     CamposModule
   ],
-  declarations: [CadastroProdutosComponent, ListagemProdutosComponent]
+  declarations: [CadastroGameComponent, ListagemGamesComponent]
 })
-export class ProdutosModule { }
+export class GamesModule { }

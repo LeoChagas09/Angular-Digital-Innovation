@@ -3,14 +3,14 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
 
 @Component({
-  selector: 'dio-cadastro-produtos',
-  templateUrl: './cadastro-produtos.component.html',
-  styleUrls: ['./cadastro-produtos.component.scss']
+  selector: 'dio-cadastro-games',
+  templateUrl: './cadastro-game.component.html',
+  styleUrls: ['./cadastro-game.component.scss']
 })
-export class CadastroProdutosComponent implements OnInit {
+export class CadastroGameComponent implements OnInit {
 
   cadastro: FormGroup;
-  tipos: Array<string>;
+  generos: Array<string>;
 
   constructor(
     public validacao: ValidarCamposService,
@@ -24,16 +24,16 @@ export class CadastroProdutosComponent implements OnInit {
   ngOnInit() {
 
     this.cadastro = this.fb.group({
-      nomeProduto: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(256)]],
+      nome: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(256)]],
       urlFoto: ['', [Validators.minLength(10)]],
       dtLancamento: ['', [Validators.required]],
       descricao: [''],
-      teorAlcoolico: [0, [Validators.required, Validators.min(0), Validators.max(100)]],
-      embalagens: [''],
-      tipo: ['', [Validators.required]],
+      preco: [0, [Validators.required, Validators.min(0), Validators.max(100)]],
+      plataforma: [''],
+      genero: ['', [Validators.required]],
     });
 
-    this.tipos = ['Cervejas', 'Bebidas Quentes', 'Não Alcoólicos']
+    this.generos = ['Ação', 'Aventura', 'RPG', 'Esportes', 'FPS', 'Terror']
 
   }
 

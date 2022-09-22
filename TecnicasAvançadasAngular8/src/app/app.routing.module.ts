@@ -1,38 +1,38 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProdutosModule } from './produtos/produtos.module';
-import { CadastroProdutosComponent } from './produtos/cadastro-produtos/cadastro-produtos.component';
-import { ListagemProdutosComponent } from './produtos/listagem-produtos/listagem-produtos.component';
+import { GamesModule } from './games/games.module';
+import { CadastroGameComponent } from './games/cadastro-games/cadastro-game.component';
+import { ListagemGamesComponent } from './games/listagem-games/listagem-games.component';
 
 const routes: Routes = [
 
   {
       path: '',
-      redirectTo: 'produtos',
+      redirectTo: 'games',
       pathMatch: 'full'
   },
   {
-    path: 'produtos',
+    path: 'games',
     children: [
       {
         path: '',
-        component: ListagemProdutosComponent
+        component: ListagemGamesComponent
       },
       {
         path: 'cadastro',
-        component: CadastroProdutosComponent,
+        component: CadastroGameComponent,
         pathMatch: 'full'
       }
     ]
   },
-  { path: '**', redirectTo: 'produtos' },
+  { path: '**', redirectTo: 'games' },
 
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    ProdutosModule
+    GamesModule
   ],
   exports: [RouterModule]
 })
