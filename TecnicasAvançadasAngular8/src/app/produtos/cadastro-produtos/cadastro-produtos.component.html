@@ -4,40 +4,12 @@
     <form [formGroup]="cadastro" (ngSubmit)="salvar()" (ngReset)="reiniciarForm()">
       <mat-card-content>
           <dio-input-text titulo="Nome do Produto *" controlName="nomeProduto" [formGroup]="cadastro" ></dio-input-text>
-          <dio-input-text titulo="Link Foto " controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
-          <mat-form-field class="full-width">
-              <input matInput
-                    readonly
-                    [matDatepicker]="picker"
-                    placeholder="Data de Lançamento *"
-                    name="dtLancamento"
-                    formControlName="dtLancamento"
-                    (click)="picker.open()"
-                    >
-              <mat-error *ngIf="validacao.hasErrorValidar(f.dtLancamento, 'required')">Campo Obrigatório</mat-error>
-              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-              <mat-datepicker #picker></mat-datepicker>
-            </mat-form-field>
+          <dio-input-text titulo="Link Foto" controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
+          <dio-input-date titulo="Data de Lançamento *" controlName="dtLancamento" [formGroup]="cadastro"></dio-input-date>
           <dio-input-textarea titulo="Descrição" controlName="descricao" [formGroup]="cadastro"></dio-input-textarea>
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Teor alcoólico *" name="teorAlcoolico" formControlName="teorAlcoolico" type="number" min="0" step="0.1">
-            <mat-error *ngIf="validacao.hasErrorValidar(f.teorAlcoolico, 'required')">Campo
-              Obrigatório</mat-error>
-              <mat-error *ngIf="validacao.hasErrorValidar(f.teorAlcoolico, 'min')">Campo
-                precisa ter no minimo o valor 0 </mat-error>
-              <mat-error *ngIf="validacao.hasErrorValidar(f.teorAlcoolico, 'max')">Campo
-                pode ter no maximo o valor 100</mat-error>
-          </mat-form-field>
+          <dio-input-number titulo="Teor alcoólico *" controlName="teorAlcoolico" [formGroup]="cadastro" step="0.1"></dio-input-number>
           <dio-input-text titulo="Embalagens" controlName="embalagens" [formGroup]="cadastro"></dio-input-text>
-          <mat-form-field class="full-width">
-            <mat-select placeholder="Tipo de Bebida *" formControlName="tipo">
-              <mat-option value="Cervejas">Cervejas</mat-option>
-              <mat-option value="Bebidas Quentes">Bebidas Quentes</mat-option>
-              <mat-option value="Não Alcoólicos">Não Alcoólicos</mat-option>
-            </mat-select>
-            <mat-error *ngIf="validacao.hasErrorValidar(f.tipo, 'required')">
-              Campo Obrigatório</mat-error>
-          </mat-form-field>
+          <dio-input-select titulo="Tipo de Bebida *" controlName="tipo" [formGroup]="cadastro"></dio-input-select>
         </mat-card-content>
         <mat-card-actions>
           <button type="submit" color="accent" mat-raised-button>Salvar</button>

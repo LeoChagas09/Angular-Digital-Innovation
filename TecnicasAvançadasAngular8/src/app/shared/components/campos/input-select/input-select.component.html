@@ -1,1 +1,11 @@
-<p>input-select works!</p>
+<div [formGroup]="formGroup">
+  <mat-form-field class="full-width">
+    <mat-select [placeholder]="titulo" [formControlName]="controlName">
+      <mat-option value="Cervejas">Cervejas</mat-option>
+      <mat-option value="Bebidas Quentes">Bebidas Quentes</mat-option>
+      <mat-option value="Não Alcoólicos">Não Alcoólicos</mat-option>
+    </mat-select>
+    <mat-error *ngIf="validacao.hasErrorValidar(formControl, 'required')">
+      Campo Obrigatório</mat-error>
+  </mat-form-field>
+</div>
