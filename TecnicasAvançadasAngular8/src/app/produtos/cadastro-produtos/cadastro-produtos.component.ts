@@ -10,6 +10,7 @@ import { ValidarCamposService } from 'src/app/shared/components/campos/validar-c
 export class CadastroProdutosComponent implements OnInit {
 
   cadastro: FormGroup;
+  tipos: Array<string>;
 
   constructor(
     public validacao: ValidarCamposService,
@@ -31,6 +32,8 @@ export class CadastroProdutosComponent implements OnInit {
       embalagens: [''],
       tipo: ['', [Validators.required]],
     });
+
+    this.tipos = ['Cervejas', 'Bebidas Quentes', 'Não Alcoólicos']
 
   }
 
