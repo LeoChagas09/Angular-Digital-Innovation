@@ -5,6 +5,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { CadastroProdutosComponent } from './cadastro-produtos/cadastro-produtos.component';
 import { MaterialModule } from '../shared/material/material.module';
 import { ListagemProdutosComponent } from './listagem-produtos/listagem-produtos.component';
+import { CamposModule } from '../shared/components/campos/campos.module';
 
 @NgModule({
   imports: [
@@ -12,6 +13,7 @@ import { ListagemProdutosComponent } from './listagem-produtos/listagem-produtos
     MaterialModule,
     ReactiveFormsModule,
     FormsModule,
+    CamposModule
   ],
   declarations: [CadastroProdutosComponent, ListagemProdutosComponent]
 })

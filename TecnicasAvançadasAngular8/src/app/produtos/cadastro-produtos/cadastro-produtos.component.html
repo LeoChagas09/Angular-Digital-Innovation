@@ -3,17 +3,8 @@
   <mat-card class="center width50" >
     <form [formGroup]="cadastro" (ngSubmit)="salvar()" (ngReset)="reiniciarForm()">
       <mat-card-content>
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Nome do Produto *" name="nomeProduto" formControlName="nomeProduto">
-            <mat-error *ngIf="validacao.hasErrorValidar(f.nomeProduto, 'required')">Campo Obrigatório</mat-error>
-            <mat-error *ngIf="validacao.hasErrorValidar(f.nomeProduto, 'minlength')">Campo precisa ter no minimo 2 caracteres</mat-error>
-            <mat-error *ngIf="validacao.hasErrorValidar(f.nomeProduto, 'maxlength')">Campo pode ter no maximo 256 caracteres</mat-error>
-          </mat-form-field>
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Link Foto" name="urlFoto" formControlName="urlFoto">
-            <mat-error *ngIf="validacao.hasErrorValidar(f.urlFoto, 'minlength')">Campo
-              precisa ter no minimo 10 caracteres</mat-error>
-          </mat-form-field>
+          <dio-input-text titulo="Nome do Produto *" controlName="nomeProduto" [formGroup]="cadastro" ></dio-input-text>
+          <dio-input-text titulo="Link Foto " controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
           <mat-form-field class="full-width">
               <input matInput
                     readonly
@@ -27,9 +18,7 @@
               <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
               <mat-datepicker #picker></mat-datepicker>
             </mat-form-field>
-          <mat-form-field class="full-width">
-            <textarea matInput placeholder="Descrição" name="descricao" formControlName="descricao"></textarea>
-          </mat-form-field>
+          <dio-input-textarea titulo="Descrição" controlName="descricao" [formGroup]="cadastro"></dio-input-textarea>
           <mat-form-field class="full-width">
             <input matInput placeholder="Teor alcoólico *" name="teorAlcoolico" formControlName="teorAlcoolico" type="number" min="0" step="0.1">
             <mat-error *ngIf="validacao.hasErrorValidar(f.teorAlcoolico, 'required')">Campo
@@ -39,9 +28,7 @@
               <mat-error *ngIf="validacao.hasErrorValidar(f.teorAlcoolico, 'max')">Campo
                 pode ter no maximo o valor 100</mat-error>
           </mat-form-field>
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Embalagens" name="embalagens" formControlName="embalagens">
-          </mat-form-field>
+          <dio-input-text titulo="Embalagens" controlName="embalagens" [formGroup]="cadastro"></dio-input-text>
           <mat-form-field class="full-width">
             <mat-select placeholder="Tipo de Bebida *" formControlName="tipo">
               <mat-option value="Cervejas">Cervejas</mat-option>
