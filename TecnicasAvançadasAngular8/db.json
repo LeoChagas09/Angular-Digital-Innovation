@@ -109,6 +109,16 @@
       "preco": 135,
       "plataforma": "PS4",
       "genero": "Aventura"
+    },
+    {
+      "nome": "Minecraft",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg",
+      "dtLancamento": "2011-11-18T02:00:00.000Z",
+      "descricao": "Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus Notch Persson e posteriormente desenvolvido e publicado pela Mojang Studios",
+      "preco": 45,
+      "plataforma": "pc",
+      "genero": "Aventura",
+      "id": 12
     }
   ]
 }

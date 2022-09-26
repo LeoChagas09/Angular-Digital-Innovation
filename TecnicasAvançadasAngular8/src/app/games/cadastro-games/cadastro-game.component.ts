@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { MatDialog } from '@angular/material';
 import { GamesService } from 'src/app/core/games.service';
+import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
 import { Game } from 'src/app/shared/models/game';
 
@@ -16,6 +18,7 @@ export class CadastroGameComponent implements OnInit {
 
   constructor(
     public validacao: ValidarCamposService,
+    public dialog: MatDialog,
     private fb: FormBuilder,
     private gamesService: GamesService,
     ) { }
@@ -55,7 +58,7 @@ export class CadastroGameComponent implements OnInit {
 
   private salvar(game: Game): void {
     this.gamesService.salvar(game).subscribe(()=> {
-      alert('Sucesso');
+      const dialogRef = this.dialog.open(AlertaComponent)
     },
     () => {
       alert('Erro ao salvar');
