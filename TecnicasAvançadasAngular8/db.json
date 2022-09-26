@@ -159,6 +159,16 @@
       "plataforma": "",
       "genero": "FPS",
       "id": 16
+    },
+    {
+      "nome": "teste",
+      "urlFoto": null,
+      "dtLancamento": "2022-09-20T03:00:00.000Z",
+      "descricao": null,
+      "preco": 1,
+      "plataforma": null,
+      "genero": "FPS",
+      "id": 17
     }
   ]
 }
