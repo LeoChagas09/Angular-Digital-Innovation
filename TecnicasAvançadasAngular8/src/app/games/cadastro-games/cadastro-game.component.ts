@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { GamesService } from 'src/app/core/games.service';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
+import { Game } from 'src/app/shared/models/game';
 
 @Component({
   selector: 'dio-cadastro-games',
@@ -14,7 +16,8 @@ export class CadastroGameComponent implements OnInit {
 
   constructor(
     public validacao: ValidarCamposService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private gamesService: GamesService,
     ) { }
 
   get f() {
@@ -37,17 +40,26 @@ export class CadastroGameComponent implements OnInit {
 
   }
 
-  salvar(): void {
+  submit(): void {
     this.cadastro.markAllAsTouched();
     if(this.cadastro.invalid) {
       return;
     }
-
-    alert('SUCESSO!!\n\n' + JSON.stringify(this.cadastro.value, null, 4))
+    const game = this.cadastro.getRawValue() as Game;
+    this.salvar(game);
   }
 
   reiniciarForm(): void {
     this.cadastro.reset();
+  }
+
+  private salvar(game: Game): void {
+    this.gamesService.salvar(game).subscribe(()=> {
+      alert('Sucesso');
+    },
+    () => {
+      alert('Erro ao salvar');
+    });
   }
 
 }

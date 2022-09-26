@@ -1,5 +1,5 @@
 {
-  "produtos": [
+  "games": [
     {
       "id": 1,
       "nome": "Grand Theft Auto V",
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "nome": "Rocket League",
-      "urlFoto": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/4563-refrigerante-conti-guarana-pet-2-l.jpg",
+      "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg",
       "dtLancamento": "2015-07-07T03:00:00.000Z",
       "descricao": "Rocket League é um jogo eletrônico de futebol em veículos desenvolvido e publicado pela Psyonix.",
       "preco": 0,

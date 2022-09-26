@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app.routing.module';
 import { MaterialModule } from './shared/material/material.module';
 import { TopoComponent } from './shared/components/topo/topo.component';
 import { RodapeComponent } from './shared/components/rodape/rodape.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -25,6 +26,7 @@ import { RodapeComponent } from './shared/components/rodape/rodape.component';
     LayoutModule,
     MaterialModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],
   bootstrap: [AppComponent]
