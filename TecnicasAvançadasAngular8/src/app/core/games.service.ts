@@ -16,4 +16,8 @@ export class GamesService {
   salvar(game: Game): Observable<Game>{
     return this.http.post<Game>(url, game);
   }
+
+  listar(): Observable<Game[]>{
+    return this.http.get<Game[]>(url);
+  }
 }

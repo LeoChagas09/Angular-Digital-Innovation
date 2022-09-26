@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GamesService } from 'src/app/core/games.service';
+import { Game } from 'src/app/shared/models/game';
 
 @Component({
   selector: 'dio-listagem-games',
@@ -7,13 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListagemGamesComponent implements OnInit {
 
-  constructor() { }
+  games: Game[] = [];
+
+  constructor(
+    private gamesService: GamesService,
+  ) { }
 
   ngOnInit() {
-
-  }
-
-  open() {
+    this.gamesService.listar().subscribe((games: Game[]) => this.games = games);
   }
 
 }
