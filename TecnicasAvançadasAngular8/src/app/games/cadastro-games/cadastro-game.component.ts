@@ -4,6 +4,7 @@ import { MatDialog } from '@angular/material';
 import { GamesService } from 'src/app/core/games.service';
 import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
 import { ValidarCamposService } from 'src/app/shared/components/campos/validar-campos.service';
+import { Alerta } from 'src/app/shared/models/alerta';
 import { Game } from 'src/app/shared/models/game';
 
 @Component({
@@ -58,7 +59,15 @@ export class CadastroGameComponent implements OnInit {
 
   private salvar(game: Game): void {
     this.gamesService.salvar(game).subscribe(()=> {
-      const dialogRef = this.dialog.open(AlertaComponent)
+      const config = {
+        data: {
+          btnSucesso: 'Ir para a listagem',
+          btnCancelar: 'Cadastrar um novo jogo',
+          corBtnCancelar: 'primary',
+          possuiBtnFechar: true
+        } as Alerta
+      };
+      const dialogRef = this.dialog.open(AlertaComponent, config);
     },
     () => {
       alert('Erro ao salvar');

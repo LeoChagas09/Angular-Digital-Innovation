@@ -119,6 +119,46 @@
       "plataforma": "pc",
       "genero": "Aventura",
       "id": 12
+    },
+    {
+      "nome": "GTA San Andreas",
+      "urlFoto": "",
+      "dtLancamento": "2022-09-20T03:00:00.000Z",
+      "descricao": "",
+      "preco": 0,
+      "plataforma": "ps4",
+      "genero": "Ação",
+      "id": 13
+    },
+    {
+      "nome": "teste",
+      "urlFoto": "",
+      "dtLancamento": "2022-09-14T03:00:00.000Z",
+      "descricao": "",
+      "preco": 0,
+      "plataforma": "",
+      "genero": "FPS",
+      "id": 14
+    },
+    {
+      "nome": "sdahasda",
+      "urlFoto": "",
+      "dtLancamento": "2022-09-19T03:00:00.000Z",
+      "descricao": "",
+      "preco": 0,
+      "plataforma": "",
+      "genero": "FPS",
+      "id": 15
+    },
+    {
+      "nome": "dasda",
+      "urlFoto": "",
+      "dtLancamento": "2022-09-18T03:00:00.000Z",
+      "descricao": "",
+      "preco": 0,
+      "plataforma": "",
+      "genero": "FPS",
+      "id": 16
     }
   ]
 }
