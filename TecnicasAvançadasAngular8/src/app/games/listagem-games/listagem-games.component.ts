@@ -9,6 +9,8 @@ import { Game } from 'src/app/shared/models/game';
 })
 export class ListagemGamesComponent implements OnInit {
 
+  readonly qtdPagina = 4;
+  pagina = 0;
   games: Game[] = [];
 
   constructor(
@@ -16,7 +18,17 @@ export class ListagemGamesComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.gamesService.listar().subscribe((games: Game[]) => this.games = games);
+    this.listarGames();
+  }
+
+  onScroll(): void {
+    this.listarGames();
+  }
+
+  private listarGames(): void {
+    this.pagina++;
+    this.gamesService.listar(this.pagina, this.qtdPagina)
+    .subscribe((games: Game[]) => this.games.push(...games));
   }
 
 }

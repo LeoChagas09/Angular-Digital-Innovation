@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Game } from '../shared/models/game';
@@ -17,7 +17,10 @@ export class GamesService {
     return this.http.post<Game>(url, game);
   }
 
-  listar(): Observable<Game[]>{
-    return this.http.get<Game[]>(url);
+  listar(pagina: number, qtdPagina: number): Observable<Game[]>{
+    let httpParams = new HttpParams();
+    httpParams = httpParams.set('page', pagina.toString());
+    httpParams = httpParams.set('_limit', qtdPagina.toString());
+    return this.http.get<Game[]>(url, {params: httpParams});
   }
 }
