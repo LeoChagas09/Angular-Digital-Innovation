@@ -16,22 +16,21 @@ import { AlertaComponent } from './shared/components/alerta/alerta.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopoComponent,
-    RodapeComponent,
-    AlertaComponent,
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    LayoutModule,
-    MaterialModule,
-    AppRoutingModule,
-    HttpClientModule,
-  ],
-  entryComponents: [ AlertaComponent ],
-  providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        TopoComponent,
+        RodapeComponent,
+        AlertaComponent,
+    ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        LayoutModule,
+        MaterialModule,
+        AppRoutingModule,
+        HttpClientModule,
+    ],
+    providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

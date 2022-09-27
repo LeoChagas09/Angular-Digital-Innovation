@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { AbstractControl, FormGroup } from '@angular/forms';
+import { AbstractControl, UntypedFormGroup } from '@angular/forms';
 import { ValidarCamposService } from '../validar-campos.service';
 
 @Component({
@@ -10,10 +10,10 @@ import { ValidarCamposService } from '../validar-campos.service';
 export class InputNumberComponent  {
 
   @Input() titulo: string;
-  @Input() formGroup: FormGroup;
+  @Input() formGroup: UntypedFormGroup;
   @Input() controlName: string;
   @Input() minimo = 0;
-  @Input() maxixo = 100;
+  @Input() maximo = 100;
   @Input() step = 1;
 
   constructor(

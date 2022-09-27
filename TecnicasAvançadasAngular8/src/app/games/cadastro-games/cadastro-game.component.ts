@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import { MatDialog } from '@angular/material';
+import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { GamesService } from 'src/app/core/games.service';
 import { AlertaComponent } from 'src/app/shared/components/alerta/alerta.component';
@@ -15,13 +15,13 @@ import { Game } from 'src/app/shared/models/game';
 })
 export class CadastroGameComponent implements OnInit {
 
-  cadastro: FormGroup;
+  cadastro: UntypedFormGroup;
   generos: Array<string>;
 
   constructor(
     public validacao: ValidarCamposService,
     public dialog: MatDialog,
-    private fb: FormBuilder,
+    private fb: UntypedFormBuilder,
     private gamesService: GamesService,
     private router: Router
     ) { }

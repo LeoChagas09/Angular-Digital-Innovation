@@ -19,8 +19,8 @@ export class GamesService {
 
   listar(pagina: number, qtdPagina: number): Observable<Game[]>{
     let httpParams = new HttpParams();
-    httpParams = httpParams.set('page', pagina.toString());
+    httpParams = httpParams.set('_page', pagina.toString());
     httpParams = httpParams.set('_limit', qtdPagina.toString());
-    return this.http.get<Game[]>(url, {params: httpParams});
+    return this.http.get<Game[]>(url, { params: httpParams });
   }
 }
