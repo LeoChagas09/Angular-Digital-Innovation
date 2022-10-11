@@ -1,0 +1,18 @@
+<mat-list *ngIf="game; else semRegistro">
+  <mat-list-item > {{game.nome}} </mat-list-item>
+  <mat-list-item> Data de lançamento: {{game.dtLancamento | date: 'dd/MM/yyyy' }} </mat-list-item>
+  <mat-list-item> Gênero: {{game.genero}} </mat-list-item>
+  <mat-list-item class="quebrar-linha"> Descrição: {{game.descricao}} </mat-list-item>
+  <mat-list-item> Valor: {{game.preco | currency : 'R$'}} </mat-list-item>
+  <img mat-card-image [src]="game.urlFoto || semFoto">
+</mat-list>
+<mat-card>
+  <mat-card-actions>
+    <button color="accent" mat-raised-button (click)="editar()">Editar</button>
+    <button color="warn" mat-raised-button (click)="excluir()">Excluir</button>
+  </mat-card-actions>
+</mat-card>
+
+<ng-template #semRegistro>
+  <h1 class="full-width main-div">Nenhum registro encontrado!</h1>
+</ng-template>

@@ -8,6 +8,7 @@ import { CadastroGameComponent } from './cadastro-games/cadastro-game.component'
 import { MaterialModule } from '../shared/material/material.module';
 import { ListagemGamesComponent } from './listagem-games/listagem-games.component';
 import { CamposModule } from '../shared/components/campos/campos.module';
+import { VisualizarGamesComponent } from './visualizar-games/visualizar-games.component';
 
 @NgModule({
   imports: [
@@ -18,6 +19,6 @@ import { CamposModule } from '../shared/components/campos/campos.module';
     CamposModule,
     InfiniteScrollModule
   ],
-  declarations: [CadastroGameComponent, ListagemGamesComponent]
+  declarations: [CadastroGameComponent, ListagemGamesComponent, VisualizarGamesComponent]
 })
 export class GamesModule { }

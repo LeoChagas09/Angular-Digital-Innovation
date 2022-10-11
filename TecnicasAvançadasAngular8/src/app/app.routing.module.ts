@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { GamesModule } from './games/games.module';
 import { CadastroGameComponent } from './games/cadastro-games/cadastro-game.component';
 import { ListagemGamesComponent } from './games/listagem-games/listagem-games.component';
+import { VisualizarGamesComponent } from './games/visualizar-games/visualizar-games.component';
 
 const routes: Routes = [
 
@@ -20,9 +21,22 @@ const routes: Routes = [
       },
       {
         path: 'cadastro',
-        component: CadastroGameComponent,
+        children: [
+          {
+            path: '',
+            component: CadastroGameComponent
+          },
+          {
+            path: ':id',
+            component: CadastroGameComponent
+          }
+        ]
+      },
+      {
+        path: ':id',
+        component: VisualizarGamesComponent,
         pathMatch: 'full'
-      }
+      },
     ]
   },
   { path: '**', redirectTo: 'games' },

@@ -16,7 +16,7 @@ export class AlertaComponent implements OnInit {
     btnCancelar: 'Cancelar',
     corBtnSucesso: 'accent',
     corBtnCancelar: 'warn',
-    possuiBtnFechar: false,
+    possuirBtnFechar: false,
   } as Alerta
 
   constructor(
@@ -32,7 +32,7 @@ export class AlertaComponent implements OnInit {
       this.alerta.btnCancelar = this.data.btnCancelar || this.alerta.btnCancelar;
       this.alerta.corBtnSucesso = this.data.corBtnSucesso || this.alerta.corBtnSucesso;
       this.alerta.corBtnCancelar = this.data.corBtnCancelar || this.alerta.corBtnCancelar;
-      this.alerta.possuiBtnFechar = this.data.possuiBtnFechar || this.alerta.possuiBtnFechar;
+      this.alerta.possuirBtnFechar = this.data.possuirBtnFechar || this.alerta.possuirBtnFechar;
     }
   }
 

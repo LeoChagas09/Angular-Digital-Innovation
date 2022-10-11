@@ -101,14 +101,14 @@
       "genero": "Ação"
     },
     {
-      "id": 11,
       "nome": "Detroit: Become Human",
       "urlFoto": "https://static-cdn.jtvnw.net/ttv-boxart/497480_IGDB-285x380.jpg",
       "dtLancamento": "2018-05-25T03:00:00.000Z",
       "descricao": "Detroit: Become Human é um jogo eletrônico produzido pela Quantic Dream e publicado pela Sony Interactive Entertainment.",
-      "preco": 135,
+      "preco": 100,
       "plataforma": "PS4",
-      "genero": "Aventura"
+      "genero": "Aventura",
+      "id": 11
     },
     {
       "nome": "Minecraft",
@@ -119,56 +119,6 @@
       "plataforma": "pc",
       "genero": "Aventura",
       "id": 12
-    },
-    {
-      "nome": "GTA San Andreas",
-      "urlFoto": "",
-      "dtLancamento": "2022-09-20T03:00:00.000Z",
-      "descricao": "",
-      "preco": 0,
-      "plataforma": "ps4",
-      "genero": "Ação",
-      "id": 13
-    },
-    {
-      "nome": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2022-09-14T03:00:00.000Z",
-      "descricao": "",
-      "preco": 0,
-      "plataforma": "",
-      "genero": "FPS",
-      "id": 14
-    },
-    {
-      "nome": "sdahasda",
-      "urlFoto": "",
-      "dtLancamento": "2022-09-19T03:00:00.000Z",
-      "descricao": "",
-      "preco": 0,
-      "plataforma": "",
-      "genero": "FPS",
-      "id": 15
-    },
-    {
-      "nome": "dasda",
-      "urlFoto": "",
-      "dtLancamento": "2022-09-18T03:00:00.000Z",
-      "descricao": "",
-      "preco": 0,
-      "plataforma": "",
-      "genero": "FPS",
-      "id": 16
-    },
-    {
-      "nome": "teste",
-      "urlFoto": null,
-      "dtLancamento": "2022-09-20T03:00:00.000Z",
-      "descricao": null,
-      "preco": 1,
-      "plataforma": null,
-      "genero": "FPS",
-      "id": 17
     }
   ]
 }
